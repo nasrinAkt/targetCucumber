@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user in back to school deals page",
+        "description": "",
+        "id": ";verify-user-in-back-to-school-deals-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5961636700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open target application",
+            "match": {
+              "location": "stepClass.open_target_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1325759300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click catagories",
+            "match": {
+              "location": "stepClass.click_catagories()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2114177100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click ready for school",
+            "match": {
+              "location": "stepClass.click_ready_for_school()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2095693700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click back to school deal",
+            "match": {
+              "location": "stepClass.click_back_to_school_deal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2314829400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify user in back to school deals page",
+            "match": {
+              "location": "stepClass.verify_user_in_back_to_school_deals_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "cata.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can search iphone.",
+        "description": "",
+        "id": "this-is-a-feature-for-verify-search-button-fuctionality.;verify-user-can-search-iphone.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3231239500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open target application",
+            "match": {
+              "location": "stepClass.open_target_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585816300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "type iphone on search button",
+            "match": {
+              "location": "stepClass.type_iphone_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5275530400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click search icon",
+            "match": {
+              "location": "stepClass.click_search_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2231325100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user can search iphone.",
+            "match": {
+              "location": "stepClass.verify_user_can_search_iphone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for verify search button fuctionality.",
+    "description": "",
+    "id": "this-is-a-feature-for-verify-search-button-fuctionality.",
+    "keyword": "Feature",
+    "uri": "find.feature"
+  }
+]
